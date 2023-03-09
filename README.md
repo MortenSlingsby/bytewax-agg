@@ -1,6 +1,6 @@
 # Bytewax state recovery issue.
 
-To reproduce follow these steps. Packages used:
+To reproduce follow these steps. If using nix, start by running `nix develop`, otherwise make sure you got the required packages available and just ignore the .nix files. Packages used:
 - bytewax
 - Kafka-python
 
