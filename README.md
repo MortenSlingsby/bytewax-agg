@@ -32,7 +32,7 @@ With each run of this script you can check the output in the dataflow terminal. 
 
 ## 5. Recreate error
 The easiest way to recreate the issue is by running the below steps. Note that the error does not occur always, so you might need repeat these steps several times until you encounter the error
-- Run `python redpanda/produce_new.py`
+- Run `python producer_new.py`
 - Wait for output terminal windows to produce result
 - Immediatly stop the dataflow with using ctrl-z
 - Restart the dataflow by running `python consume_bytewax.py`
